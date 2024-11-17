@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className=''>
         <div className="img h-2">
-            <img className='h-[20vh] w-[90vw] md:h-[80vh] md:w-[90vw] rounded-xl ml-4 mt-5
+            <img className='h-[20vh] w-[90vw]  md:h-[80vh] md:w-[90vw] rounded-xl ml-4 mt-5
            md:ml-[50px]  md:mt-5  ' src="/public/header_img.png" alt="" />
         </div>
         <h1 className='text-[1.2rem] py-4 px-8 font-semibold
