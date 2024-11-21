@@ -13,7 +13,7 @@
 //       </div>
 //       <div>
 //         {currState==="Login"?<></>: <input type="text" placeholder="username" required />}
-       
+
 //         <input type="email" placeholder="email" required />
 //         <input type="password" placeholder="password" required />
 //       </div>
@@ -32,12 +32,11 @@
 
 // export default Login
 
-
-import React, { useState } from 'react';
-import { assets } from '../../assets/assets';
+import React, { useState } from "react";
+import { assets } from "../../assets/assets";
 
 const Login = ({ setshowlogin }) => {
-  const [currState, setcurrState] = useState('Login');
+  const [currState, setcurrState] = useState("Login");
 
   return (
     <div className="absolute z-10 inset-0 bg-black bg-opacity-60 grid">
@@ -56,7 +55,7 @@ const Login = ({ setshowlogin }) => {
 
         {/* Input Fields */}
         <div className="flex flex-col gap-5">
-          {currState === 'sign up' && (
+          {currState === "sign up" && (
             <input
               type="text"
               placeholder="Username"
@@ -83,30 +82,31 @@ const Login = ({ setshowlogin }) => {
           type="submit"
           className="bg-orange-600 text-white p-2 rounded text-lg hover:bg-orange-500 transition duration-300"
         >
-          {currState === 'sign up' ? 'Create Account' : 'Login'}
+          {currState === "sign up" ? "Create Account" : "Login"}
         </button>
 
         {/* Terms and Conditions */}
         <div className="flex items-start gap-2 -mt-4">
           <input type="checkbox" required className="mt-1" />
           <p className="text-sm">
-            By continuing, I agree to the{' '}
+            By continuing, I agree to the{" "}
             <span className="text-orange-600 font-medium cursor-pointer">
               Terms of Use
-            </span>{' '}
-            and{' '}
+            </span>{" "}
+            and{" "}
             <span className="text-orange-600 font-medium cursor-pointer">
               Privacy Policy
-            </span>.
+            </span>
+            .
           </p>
         </div>
 
         {/* Toggle between Login and Sign Up */}
-        {currState === 'Login' ? (
+        {currState === "Login" ? (
           <p className="text-sm">
-            Create a new account?{' '}
+            Create a new account?{" "}
             <span
-              onClick={() => setcurrState('sign up')}
+              onClick={() => setcurrState("sign up")}
               className="text-orange-600 font-medium cursor-pointer"
             >
               Click Here
@@ -114,9 +114,9 @@ const Login = ({ setshowlogin }) => {
           </p>
         ) : (
           <p className="text-sm">
-            Already have an account?{' '}
+            Already have an account?{" "}
             <span
-              onClick={() => setcurrState('Login')}
+              onClick={() => setcurrState("Login")}
               className="text-orange-600 font-medium cursor-pointer"
             >
               Login Here
