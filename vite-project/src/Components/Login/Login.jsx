@@ -1,37 +1,3 @@
-// import React ,{useState} from 'react'
-// import { assets } from '../../assets/assets'
-
-// const Login = ({setshowlogin}) => {
-
-//   const [currState, setcurrState] = useState("Login")
-//   return (
-//     <div>
-//       <form>
-//         <div>
-//       <h1>{currState}</h1>
-//       <img onClick={()=>setshowlogin(false)} src={assets.cross_icon} alt="#" />
-//       </div>
-//       <div>
-//         {currState==="Login"?<></>: <input type="text" placeholder="username" required />}
-
-//         <input type="email" placeholder="email" required />
-//         <input type="password" placeholder="password" required />
-//       </div>
-//       <button>{currState==="sign up"?"Create Account":"Login"}</button>
-//       <div>
-//     <input type="checkbox" required />
-//     <p>By continuing , i agree to the term of use and privacy policy</p>
-//       </div>
-//       {currState ==="Login"?<p>Create a new account?<span onClick={()=>setcurrState("sign up")}> Click Here</span></p>
-//       :<p>Already have an account?<span onClick={()=>setcurrState("Login")}>Login Here</span></p>}
-//       </form>
-//     </div>
-
-//   )
-// }
-
-// export default Login
-
 import React, { useState } from "react";
 import { assets } from "../../assets/assets";
 

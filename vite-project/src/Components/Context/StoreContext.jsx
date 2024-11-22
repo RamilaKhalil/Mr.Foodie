@@ -38,8 +38,7 @@ const StoreContextProvider = (props) => {
     Totalitemcart,
   };
   return (
-    
-// @ts-ignore
+    // @ts-ignore
     <StoreContext.Provider value={contextValue}>
       {props.children}
     </StoreContext.Provider>

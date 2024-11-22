@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const Footer = () => {
@@ -12,11 +11,11 @@ const Footer = () => {
             <h1 className="md:hidden text-3xl font-bold py-5  pb-2 md:px-[50px] md:text-[3rem]">
               Mr.Foodie
             </h1>
-            <p className="mt-4 md:mt-0 md:pt-3 max-w-xs text-center md:text-centre leading-8 bg-[#fff] rounded-xl text-orange-600 p-5 text-[1rem] md:hidden">
-              Your go-to destination for delicious food delivered straight to
-              your door. Fresh ingredients, amazing flavors, and speedy
-              delivery.
-            </p>
+            <img
+              className="md:hidden  rounded-lg"
+              src="/public/food_18.png"
+              alt=""
+            />
           </div>
 
           {/* Right Side Images (Visible only on md and larger screens) */}
@@ -44,8 +43,6 @@ const Footer = () => {
           </div>
           {/* Navigation Links */}
           <div className="flex  justify-center items-center gap-4 md:gap-8 mt-6 md:mt-0 md:pt-[300px] md:mr-[70px]">
-
-            
             <a href="#" className="hover:underline">
               Home
             </a>
@@ -92,7 +89,9 @@ const Footer = () => {
         {/* Footer Bottom Section */}
         <div className="mt-10 border-t border-gray-300 pt-8 pb-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p>&copy; {new Date().getFullYear()} Mr.Foodie. All Rights Reserved.</p>
+            <p>
+              &copy; {new Date().getFullYear()} Mr.Foodie. All Rights Reserved.
+            </p>
             <div className="space-x-4 mt-5 text-gray-200">
               <a href="#" className="hover:underline px-3">
                 | Privacy Policy |
@@ -104,7 +103,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      
     </footer>
   );
 };
