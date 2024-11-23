@@ -13,7 +13,7 @@ const Footer = () => {
             </h1>
             <img
               className="md:hidden  rounded-lg"
-              src="/Images/cake-4890393_1280.jpg"
+              src="/image/cake-4890393_1280.jpg"
               alt=""
             />
           </div>
@@ -21,23 +21,23 @@ const Footer = () => {
           {/* Right Side Images (Visible only on md and larger screens) */}
           <div className="hidden md:flex justify-end md:mr-[-550px]  mt-8 md:mt-0 space-x-4">
             <img
-              src="/Images/cakes-3257019_1280.jpg"
-              alt="Food Image 1"
+              src="/image/cakes-3257019_1280.jpg"
+              alt="#1"
               className="w-[220px] h-[220px] object-cover rounded-lg"
             />
             <img
-              src="/Images/cupcakes-1133146_1280.jpg"
-              alt="Food Image 2"
+              src="/image/cupcakes-1133146_1280.jpg"
+              alt="#2"
               className="w-[220px] h-[220px] object-cover rounded-lg"
             />
             <img
-              src="/Images/cake-4890393_1280.jpg"
-              alt="Food Image 3"
+              src="/image/cake-4890393_1280.jpg"
+              alt="#3"
               className="w-[220px] h-[220px] object-cover rounded-lg"
             />
             <img
-              src="/Images/cupcakes-1133146_1280.jpg"
-              alt="Food Image 4"
+              src="/image/cupcakes-1133146_1280.jpg"
+              alt="#4"
               className="w-[220px] h-[220px] object-cover rounded-lg"
             />
           </div>

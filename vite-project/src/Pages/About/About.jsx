@@ -17,7 +17,7 @@ const About = () => {
           {/* Image Section */}
           <div className="relative">
             <img
-              src="/Images/fast-food-6974507_1920.jpg"
+              src="/image/fast-food-6974507_1920.jpg"
               alt="About Us"
               className="rounded-lg shadow-lg"
             />
