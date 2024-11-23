@@ -1,4 +1,5 @@
 import React from "react";
+import { assets } from "../../assets/assets";
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
             </h1>
             <img
               className="md:hidden  rounded-lg"
-              src="/image/cake-4890393_1280.jpg"
+              src={assets.cake_img}
               alt=""
             />
           </div>
@@ -21,22 +22,22 @@ const Footer = () => {
           {/* Right Side Images (Visible only on md and larger screens) */}
           <div className="hidden md:flex justify-end md:mr-[-550px]  mt-8 md:mt-0 space-x-4">
             <img
-              src="/image/cakes-3257019_1280.jpg"
+              src={assets.cake_img}
               alt="#1"
               className="w-[220px] h-[220px] object-cover rounded-lg"
             />
             <img
-              src="/image/cupcakes-1133146_1280.jpg"
+              src={assets.cakes_img}
               alt="#2"
               className="w-[220px] h-[220px] object-cover rounded-lg"
             />
             <img
-              src="/image/cake-4890393_1280.jpg"
+              src={assets.cupcake_img}
               alt="#3"
               className="w-[220px] h-[220px] object-cover rounded-lg"
             />
             <img
-              src="/image/cupcakes-1133146_1280.jpg"
+              src={assets.cake_img}
               alt="#4"
               className="w-[220px] h-[220px] object-cover rounded-lg"
             />

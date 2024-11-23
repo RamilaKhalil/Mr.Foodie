@@ -1,4 +1,6 @@
 import React from "react";
+import { assets } from "../../assets/assets";
+
 
 const Header = () => {
   return (
@@ -7,8 +9,8 @@ const Header = () => {
         <img
           className="h-[20vh] w-[90vw]  md:h-[80vh] md:w-[90vw] rounded-xl ml-4 mt-5
            md:ml-[50px]  md:mt-5  "
-          src="/image/sushi-roll-images-4395598_1920.jpg"
-          alt=""
+          src={assets.header_img}
+          alt="#8"
         />
       </div>
       <h1

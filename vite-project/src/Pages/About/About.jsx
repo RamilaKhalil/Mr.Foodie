@@ -1,4 +1,5 @@
 import React from "react";
+import { assets } from "../../assets/assets";
 
 const About = () => {
   return (
@@ -17,7 +18,7 @@ const About = () => {
           {/* Image Section */}
           <div className="relative">
             <img
-              src="/image/fast-food-6974507_1920.jpg"
+              src={assets.fast_img}
               alt="About Us"
               className="rounded-lg shadow-lg"
             />

@@ -119,6 +119,18 @@ import logout_icon from './logout_icon.png'
 // @ts-ignore
 import parcel_icon from './parcel_icon.png'
 
+// @ts-ignore
+import fast_img from "./fast-food-6974507_1920.jpg"
+
+ // @ts-ignore
+ import   cake_img from "./cake-4890393_1280.jpg"
+
+ // @ts-ignore
+ import cakes_img from  "./cakes-3257019_1280.jpg"
+
+ // @ts-ignore
+ import  cupcake_img from "./cupcakes-1133146_1280.jpg"
+ 
 export const assets = {
     logo,
     basket_icon,
@@ -138,7 +150,12 @@ export const assets = {
     profile_icon,
     logout_icon,
     bag_icon,
-    parcel_icon
+    parcel_icon,
+    fast_img,
+    cake_img,
+    cakes_img,
+    cupcake_img,
+
 }
 
 export const menu_list = [
